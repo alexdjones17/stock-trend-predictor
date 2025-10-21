@@ -1,0 +1,34 @@
+# --- Python build artifacts ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual environments ---
+.venv/
+env/
+venv/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_save
+
+# --- Data and models ---
+data/raw/
+data/processed/
+models/
+reports/figures/
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.out
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE settings ---
+.vscode/
+.idea/
